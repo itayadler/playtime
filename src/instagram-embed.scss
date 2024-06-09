@@ -1,0 +1,10 @@
+.instagram-embed{
+    all: none;
+    .Embed {
+        border: 20px solid red !important;
+    }
+    .Header, .EmbedVideo, .whVGE, .HoverCard, .PrimaryCTA, .Feedback, .SocialProof, .Footer {
+        display: none !important;
+    }
+}
+
