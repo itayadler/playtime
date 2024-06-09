@@ -1,0 +1,21 @@
+.organic {
+  position: absolute;
+  display: block;
+  width: 86%;
+  height: 86%;
+  top: 5%;
+  // background: linear-gradient(135deg, #FF512F, #DD2476);
+  border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
+  animation-name: organic;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  background-color: rgba(255,255,255,0.15);
+  pointer-events: none;
+}
+
+@keyframes organic {
+    0% {border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%}
+    33% {border-radius: 30% 70% 30% 70% / 32% 30% 70% 68%;}
+    66% {border-radius: 70% 30% 70% 30% / 68% 70% 30% 32%;}
+    100% {border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%}
+}

@@ -1,0 +1,86 @@
+.scheduleXL {
+    padding: 20px;
+    margin: 0 !important;
+    width: 100%;
+    height: 100%;
+    flex-direction: column ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    max-width:100%;
+    transition: background-color 400ms ease-in-out;
+    
+    .schedule__title {
+        font-size: 90px;
+        width: 100%;
+        text-align: center;
+        
+        // margin-top: -12%;
+        
+        
+        // margin-bottom: 40%;
+    }
+    .schedule__time {
+            font-size: 35px;
+            
+        }
+    // @media screen and (max-width: 1024px) {
+    // }
+}
+
+.currentScheduleXL {
+    // padding-bottom: 45%;
+}
+
+
+
+.white {
+    background-color: white;
+    .schedule__title, .schedule__time {
+        color: black;
+    }
+}
+.red {
+    background-color: var(--color-red);
+}
+.orange {
+    background-color: var(--color-orange);
+}
+.green {
+    background-color: var(--color-green);
+}
+.skyblue {
+    background-color: var(--color-skyblue);
+}
+.darkblue {
+    background-color: var(--color-darkblue);
+}
+.yellow {
+    background-color: var(--color-yellow);
+}
+.brown {
+    background-color: var(--color-brown);
+}
+.light-brown {
+    background-color: var(--color-light-brown);
+}
+
+.purple {
+    background-color: var(--color-purple);
+}
+.pink {
+    background-color: var(--color-pink);
+}
+.magenta {
+    background-color: var(--color-magenta);
+}
+.bej {
+    background-color: var(--color-bej);
+}
+.light-gray {
+    background-color: var(--color-light-gray);
+}
+.black {
+    background-color: var(--color-black);
+}

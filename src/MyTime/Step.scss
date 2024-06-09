@@ -1,0 +1,127 @@
+.schedule {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 6px 18px ;
+    transition: transform 90ms ease-in-out;
+    // margin: 10px 14px;
+    // &:hover {
+    //     cursor: pointer;
+    //     transform: scale(1.03);
+    //     @media screen and (max-width: 1024px) {
+    //         transform: scale(1);
+    //     }
+    // }
+    // div:first-child {
+    //     border: red 2px solid;
+    // }
+}
+.shedule__title-and-icon {
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    // justify-content: center;
+    align-items: center;
+}
+.schedule__title, .schedule__time{
+    font-size: 25px;
+    z-index: 999;
+}
+.shedule__img {
+    width: 30%;
+    min-width: 375px;
+    height: auto;
+    z-index: 999;
+}
+.shedule__icon {
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+    margin-left: 15px;
+}
+.schedule__currentSchedule {
+    box-shadow: inset 0px 0px 0px 2px rgb(0, 0, 0)
+}
+.schedule__paddedSchedule {
+    opacity: 0.2;
+    // display: none;
+} 
+.schedule__hidden {
+    opacity: 0;
+}
+
+.nextSchedule {
+    justify-content: space-between;
+    width: 400px;
+    position : absolute;
+    bottom: 0;
+    left: 40px;
+    margin-bottom: 40px;
+    min-height: 70px;
+    align-items: center;
+    box-shadow: 0 2px 22px rgba(0,0,0,0.2);
+    // &:before{
+    //     content:"בקרוב";
+    //     position : absolute;
+    //     font-size: 20px;
+    //     right: 26px;
+    //     top: 26px;
+    // }
+    .schedule__title {
+        // background-color :red;
+    }
+}
+
+
+.white {
+    background-color: white;
+    .schedule__title, .schedule__time {
+        color: black;
+    }
+}
+.red {
+    background-color: var(--color-red);
+}
+.orange {
+    background-color: var(--color-orange);
+}
+.green {
+    background-color: var(--color-green);
+}
+.skyblue {
+    background-color: var(--color-skyblue);
+}
+.darkblue {
+    background-color: var(--color-darkblue);
+}
+.yellow {
+    background-color: var(--color-yellow);
+}
+.brown {
+    background-color: var(--color-brown);
+}
+.light-brown {
+    background-color: var(--color-light-brown);
+}
+
+.purple {
+    background-color: var(--color-purple);
+}
+.pink {
+    background-color: var(--color-pink);
+}
+.magenta {
+    background-color: var(--color-magenta);
+}
+.bej {
+    background-color: var(--color-bej);
+}
+.light-gray {
+    background-color: var(--color-light-gray);
+}
+.black {
+    background-color: var(--color-black);
+}
